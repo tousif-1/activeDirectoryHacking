@@ -9,4 +9,10 @@
 
 ```shell
 Install-WindowsFeature AD-Domain-Services -IncludemanagementTools
+import-Module ADDSDeployment
+Install-ADDSForest
 ```
+- Enter your Domain name: xyz.com
+- Set password
+- The System will restart
+
